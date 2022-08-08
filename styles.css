@@ -1,13 +1,25 @@
+
 body {
     background-color: #FFC0CB;
     font-family: markerfelt,arial, sans-serif;
+    text-align: center;
 }
+header {
+   color: black;
+   size: 10px; 
+}
+nav {
+    font-weight: bold;
+}
+
 h1 {
     color: white;
+    
     
 }
 h2 {
     color: white;
+   
 }
 
 h3 {
@@ -15,7 +27,8 @@ h3 {
 }
 
 p {
-    color: red;
+    color: #C71585;
+    text-align: left;
 }
 
 .column {
@@ -29,7 +42,7 @@ p {
     display: table;
     clear: both;
 }
-#headshot {
+img, iframe{
     display: block;
     margin-left: auto;
     margin-right: auto;
