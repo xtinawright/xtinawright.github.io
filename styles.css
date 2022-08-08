@@ -2,8 +2,16 @@ body {
     background-color: #FFC0CB;
 }
 h1 {
-    color: blue;
+    color: black;
 }
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
 p {
     color: red;
 }
