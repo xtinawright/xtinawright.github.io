@@ -1,39 +1,118 @@
 
+@font-face {
+    font-family: crafty;
+    src: url(fonts/CraftyNotesRegular-9YW77.ttf);
+}
+
+@font-face {
+    font-family: retro;
+    src: url(fonts/Retrofunkscriptpersonaluse-v6XO.otf);
+}
+
+@font-face {
+    font-family: sunnyspells;
+    src: url(fonts/SunnyspellsRegular-MV9ze.otf);
+    font-stretch: initial;
+}
+
+@font-face {
+    font-family: gvtime;
+    src: url(fonts/GvtimeRegular-AL6Jg.otf);
+    font-stretch: initial;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(fonts/MontserratBold-p781R.otf);
+    font-stretch: 50% 200%;
+}
+
+@font-face {
+    font-family: kamryn;
+    src: url(fonts/Kamryn3DItalic-JRK6E.ttf);
+    font-stretch: 50% 200%;
+}
+
 body {
     background-color: #FFC0CB;
-    font-family: markerfelt,arial, sans-serif;
+    font-family: montserrat, sans-serif;
     text-align: center;
+    
+    
 }
-header {
-   color: black;
-   size: 10px; 
+div {
+    margin-bottom: 30px;
 }
+
 nav {
     font-weight: bold;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 h1 {
     color: white;
+    font-family: kamryn, sans-serif;
+    font-stretch: 200%;
+    /*text-shadow:
+    -1px -1px 0 #C71585,
+    1px -1px 0 #C71585,
+    -1px 1px 0 #C71585,
+    1px 1px 0 #C71585;*/
+    font-size: 48px;
+   
     
     
 }
 h2 {
     color: white;
-   
+    font-size: 28px;
+    font-family: crafty, sans-serif;
 }
 
 h3 {
     color: white;
+    font-family: montserrat, sans-serif;
 }
 
 p {
     color: #C71585;
     text-align: left;
+    font-family: montserrat, sans-serif;
+    font-size: 125%;
+
+}
+
+header p{
+   color: #C71585;
+   font-family: crafty, sans-serif;
 }
 
 .column {
     float: left;
     width: 50%;
+    
+}
+
+
+
+.column3 {
+    float: left;
+    width: 33%;
+   
+}
+
+
+.column4 {
+    float: left;
+    width: 25%;
+    
+}
+
+.column23 {
+    float: left;
+    width: 66%;
+   
 }
   
 /* Clear floats after the columns */
@@ -42,10 +121,37 @@ p {
     display: table;
     clear: both;
 }
-img, iframe{
+img, iframe video{
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: white 5px solid;
     border-radius: 5%;
 }
+
+
+
+.box{
+    background-color: white;
+    
+    margin: auto;
+    border: #C71585 5px solid;
+    top: 50%;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+   
+}
+
+.box h3{
+    color: black;
+}
+
+.projects img {
+    height: 50%;
+    width: 50%;
+    margin-top:20px;
+}
+
+
