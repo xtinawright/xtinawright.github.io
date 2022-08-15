@@ -29,7 +29,7 @@
 
 @font-face {
     font-family: kamryn;
-    src: url(fonts/Kamryn3DItalic-JRK6E.ttf);
+    src: url(fonts/ArmWrestler.ttf);
     font-stretch: 50% 200%;
 }
 
@@ -48,6 +48,7 @@ nav {
     font-weight: bold;
     text-align: left;
     margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 h1 {
@@ -91,6 +92,7 @@ header p{
 .column {
     float: left;
     width: 50%;
+    
     
 }
 
