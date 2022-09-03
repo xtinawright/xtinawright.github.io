@@ -162,4 +162,27 @@ img, iframe video{
     opacity: 50%;
 }
 
+.gallery .column3 .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:#C71585;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;  
+    position: absolute;
+    z-index: 1;
+    
+   
+}
+
+
+  .gallery img {
+    height: 275px;
+    width: auto;
+  }
+
+  .gallery .column3:hover .tooltiptext {
+    visibility: visible;
+  }
 
