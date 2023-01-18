@@ -84,6 +84,14 @@ p {
 
 }
 
+ul{
+    color: #C71585;
+    text-align: left;
+    font-family: montserrat, sans-serif;
+    font-size: 125%;
+
+}
+
 header p{
    color: #C71585;
    font-family: crafty, sans-serif;
@@ -150,6 +158,20 @@ img, iframe video{
     color:#FFC0CB;
     font-family: crafty, sans-serif;
     font-size: 30px;
+}
+
+
+.box2{
+   
+    
+    margin: auto;
+    
+    top: 50%;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+   
 }
 
 .projects img {
