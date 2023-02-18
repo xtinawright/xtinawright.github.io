@@ -159,7 +159,10 @@ img, iframe video{
     font-family: crafty, sans-serif;
     font-size: 30px;
 }
-
+.box a:hover{
+    color:#FFC0CB;
+   
+}
 
 .box2{
    
@@ -208,3 +211,14 @@ img, iframe video{
     visibility: visible;
   }
 
+ 
+  a:visited {
+    color: #C71585;
+  }
+
+  a:link {
+    color: #C71585;
+  }
+  a:hover {
+    color: white;
+  }

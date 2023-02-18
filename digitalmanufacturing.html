@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <p>Christina Wright Columbia Mechanical Engineering</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <div>
+        <h1>Digital Manufacturing Class: 2023</h1>
+    </div>
+
+    <div>
+        <div class="box" style="width:50%">
+            
+            <h3>
+               This class focuses on using software to create files for 
+               manufacturing. We make software that can output 
+               parameterized files with user inputs or small changes to the code. 
+
+
+            </h3>
+        </div>
+    </div>
+
+    <div>
+        <h2>Project 1: Laser Cut Desk Organizer</h2>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img id="" src="photos/digital manufacturing/Laser Cut Box.jpg" width="auto" height="450px" />
+            
+        </div>
+        <div class="column">
+            <img id="" src="photos/digital manufacturing/Expanded Trays.jpg" width="auto" height="450px" />
+            
+        </div>
+       
+        
+    </div>
+    
+    <div class="row">
+            
+                <div class="box" style="width:90%">
+                    <h3>
+                        The Task: Write a program with python that creates a SVG for a desk organizer
+                        that is the size of user specified inputs. 
+
+                    </h3>
+                    <p>
+                        To generate a model a user first inputs the desired length, width, height, desired text, 
+                        number of trays. I have calculations to
+                         determine whether the these values will produce a functioning piece and fit on a give piece of acrylic. 
+                         Error handling will prompt the user to enter values until a functional piece can be created. 
+    
+                        <br><br>From there, I used a collection of nested functions to build my pieces. Since I was creating a lot of repeated geometry I made functions for elements 
+                        like the nut-screw holes. One of the most important parts of my code was using relative
+                         paths with inputs for the starting x and y values. This allows me to easily reuse and move elements as I needed 
+                         them to build my design. In the write functions to create the svg, I called the outermost functions, the actual
+                          panels, which returned strings written in SVG style and arranged them. 
+                        <br><br>I created five unique panels, the front/back panel, the side panel, the bottom panel, the lid and the handle. 
+                        I wanted each tray to have the same pieces with different sizes so they looked uniform and could stack in orientation. 
+
+
+
+
+                    </p>
+                </div>
+            </div>
+
+            <div><h3>Example:</h3></div>
+
+            <div class="row">
+            
+                <div class="column3">
+                    <div class="box">
+                    <h3>Input Parameters:</h3>
+                    <p>
+                        <br>Width:6.5
+                        <br>Height: 5
+                        <br>Depth: 3.5
+                        <br># of Trays: 2 trays
+                        <br>User Text: Christina Wright
+                        <br>DM Text: Yes
+                        </p>
+                    </div>
+                </div>
+                <div class="column3">
+                    <img id="" src="photos/digital manufacturing/LaserCutBoxSVG.png" width="auto" height="300px" />
+                    <h3>Generated SVG</h3>
+                </div>
+                <div class="column3">
+                    <img id="" src="photos/digital manufacturing/CutBoxA.jpg" width="auto" height="300px" />
+                    <h3>Resulting Box</h3>
+                </div>
+            </div>
+            
+            
+
+    
+       
+           
+    </div>
+    
+</body>
