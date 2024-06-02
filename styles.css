@@ -70,7 +70,7 @@ h1 {
 h2 {
     color: white;
     font-size: 32px;
-    font-family: crafty, sans-serif;
+    font-family: kamryn, sans-serif;
 }
 
 h3 {
@@ -96,14 +96,14 @@ ul{
 
 header {
    color: #36558f;
-   font-family: crafty, sans-serif;
+   font-family: kamryn, sans-serif;
    padding-left: 15px;
    align-items: right;
 }
 
 header a{
     color: #36558f;
-    font-family: crafty, sans-serif;
+    font-family: kamryn, sans-serif;
     text-align: right;
     padding-left: 15px;
  }
@@ -167,7 +167,7 @@ img, iframe video{
 
 .box h3{
     color:#FF769d;
-    font-family: crafty, sans-serif;
+    font-family: kamryn, sans-serif;
     font-size: 30px;
 }
 .box a:hover{
